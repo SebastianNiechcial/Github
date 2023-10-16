@@ -1,0 +1,46 @@
+<mat-toolbar>
+  <button mat-icon-button (click)="sidenav.toggle()" aria-label="Menu Button">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Sebastian Niechciał - Project Site</span>
+  <span class="spacer"></span>
+  <button
+    mat-icon-button
+    class="example-icon favorite-icon"
+    aria-label="Example icon-button with heart icon"
+  >
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with share icon"
+  >
+    <mat-icon>share</mat-icon>
+  </button>
+</mat-toolbar>
+
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quidem?
+</p>
+
+<mat-drawer-container hasBackdrop="false">
+  <mat-sidenav
+    #sidenav
+    position="start"
+    class="sidenav-left"
+    mode="over"
+    role="directory"
+  >
+    <div class="backdrop">
+      <div class="sidenav-content">
+        <button (click)="openProjects()" mat-raised-button>Projekty</button>
+        <button (click)="openAboutMe()" mat-raised-button>O mnie</button>
+        <button (click)="openWebsites()" mat-raised-button>
+          Strony Internetowe
+        </button>
+        <button (click)="openPhotos()" mat-raised-button>Zdjęcia</button>
+      </div>
+    </div>
+  </mat-sidenav>
+</mat-drawer-container>
