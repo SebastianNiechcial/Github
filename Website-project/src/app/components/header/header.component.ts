@@ -6,10 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent {
-  showFiller = false;
+  menuButtons = false;
 
-  toggleSideNav() {
-    console.log();
+  toggleMenuButtons() {
+    if (this.menuButtons === false) {
+      this.menuButtons = true;
+    } else if (this.menuButtons === true) {
+      this.menuButtons = false;
+    }
   }
 
   openProjects() {}
