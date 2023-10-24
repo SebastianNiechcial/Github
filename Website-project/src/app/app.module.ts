@@ -10,9 +10,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { GalleryComponentComponent } from './components/gallery-component/gallery-component.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent],
+  declarations: [AppComponent, HeaderComponent, GalleryComponentComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

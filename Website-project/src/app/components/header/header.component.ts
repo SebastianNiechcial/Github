@@ -16,8 +16,16 @@ export class HeaderComponent {
     }
   }
 
-  openProjects() {}
-  openAboutMe() {}
-  openWebsites() {}
-  openPhotos() {}
+  openProjects() {
+    console.log('Projects');
+  }
+  openAboutMe() {
+    console.log('AboutMe');
+  }
+  openWebsites() {
+    console.log('openWebsites');
+  }
+  openPhotos() {
+    console.log('openPhotos');
+  }
 }

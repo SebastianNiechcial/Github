@@ -1,3 +1,6 @@
+@media (width) {
+}
+
 .spacer {
   flex: 1 1 auto;
 }
@@ -7,8 +10,6 @@
   color: black;
 }
 
-.button-container {
-}
 .menu-button {
   position: absolute;
   border: 50px;
@@ -17,14 +18,35 @@
   border-radius: 50%;
   background-color: #5eacc0;
   top: 90%;
-  left: 50%;
+  left: 49%;
 }
 
 .menu-button-element {
-  position: relative;
   border: 50px;
   height: 50px;
   width: 50px;
   border-radius: 50%;
   background-color: #5eacc0;
+  color: black !important;
+}
+
+.project-button {
+  position: absolute;
+  top: 90vh;
+  left: 44vw;
+}
+.aboutme-button {
+  position: absolute;
+  top: 85vh;
+  left: 46vw;
+}
+.websites-button {
+  position: absolute;
+  top: 85vh;
+  left: 51vw;
+}
+.photos-button {
+  position: absolute;
+  top: 90vh;
+  left: 53vw;
 }
